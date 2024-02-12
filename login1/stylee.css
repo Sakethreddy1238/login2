@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin:0px;
+}
+.Origin{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    
+    
+}
+.container{
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(https://th.bing.com/th/id/OIP.w815W5BVhr-k5IOAq-YcIwHaEO?w=901&h=514&rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+    width: 100%;
+    
+
+
+}
+ul{
+    display: flex;
+    align-items: center;    
+
+}
+#search{
+    padding: 5px;
+    color:white;
+    font-size: 15px;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+#name{
+    margin-right: 45px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: bold;
+    font-weight: bold;
+}
+#search::placeholder{
+    color: white;
+}
+#heading{
+    color: rgba(249, 102, 10, 0.934);
+    font-size:50px;
+    font-family: Georgia, Times, 'Times New Roman', serif ;
+    left:80px;
+}
+#logo{
+    margin-right: 300px;
+    font-size: 40px;
+    color: aliceblue;
+}
+.kanna{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 1050px;
+    margin-top: 150px;
+    margin-right: 350px;
+   padding: 10px;
+   width:300px;
+   height: 400px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   font-family: bold;
+   font-weight: bold;
+
+
+
+
+    
+}
+.login{
+    background-color: white;
+    color: orange;
+    font-family: bold;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+#btnn{
+    background-color:  rgba(249, 102, 10, 0.934);;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 05px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: bold;
+    cursor: pointer;
+}
+#input{
+   
+    border:none;
+    border-bottom: 1px solid white;
+    border-color: white;
+    background-color: black;
+    padding: 10px;
+    color: aliceblue;
+    font-family: bold;
+    font-weight: bold;
+}
+::placeholder{
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: bold;
+    font-size: 15px;
+
+}
+#mass{
+    margin-right: 15px;
+    align-items: center;
+    font-size: 30px;
+
+}
+.icons{
+    margin-left: 30px;
+}
+#btn{
+    padding: 6px;
+    background-color:  rgba(249, 102, 10, 0.934);;
+    border: none;
+    border-radius: 3px;
+    border-left: 2px solid orange;
+    gap: 0px;
+    cursor: pointer;
+   padding-top: 7px;
+   color: aliceblue;
+
+}
+.para{
+    position:absolute;
+    left: 80px;
+    top: 200px;
+    font-size: 40px;
+}
+.para h2{
+    color: aliceblue;
+}
+.para h1{
+    color:  rgba(249, 102, 10, 0.934);
+}
+.para p{
+    font-size: 25px;
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.join{
+    position: absolute;
+    left: 80px;
+    top: 550px;
+    border: none;
+
+}
+#joins{
+    background-color: rgba(249, 102, 10, 0.934);
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+#sign{
+    color:  rgba(249, 102, 10, 0.934);
+}
